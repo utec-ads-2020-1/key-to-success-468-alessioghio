@@ -39,9 +39,10 @@ int main(){
                 }
             }
             cout << c;
-        };
+        }
+        cout << endl;
         if(i!=iter-1){
-            cout << endl << endl;
+            cout << endl;
             getline(cin, coded); // ignore blank line
         }
         chCntCoded.clear();
